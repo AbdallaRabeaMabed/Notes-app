@@ -13,11 +13,15 @@ A simple project to learn full-stack development concepts using Django and React
   - PyJWT
   - pytz
   - sqlparse
-  - psycopg2-binary
+  - psycopg2-binary (for PostgreSQL in production)
   - python-dotenv
 
 - **Frontend**:
   - React
+
+- **Database**:
+  - SQLite (development)
+  - PostgreSQL (production)
 
 ## Learning Objectives
 
@@ -36,10 +40,13 @@ This project is designed to help you learn and practice the following topics:
   Use python-dotenv to manage environment variables and separate configuration from code.
 
 - **Database Integration:**  
-  Use PostgreSQL as the database backend and interact with it via psycopg2-binary.
+  Use SQLite for development and PostgreSQL for production. Understand the differences and configurations for each.
 
 - **Time Zone Handling:**  
   Work with time zones in Django using pytz.
 
 - **Security Best Practices:**  
   Secure sensitive endpoints and manage secrets using environment variables.
+
+---
+
